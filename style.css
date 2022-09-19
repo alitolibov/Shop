@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Gilroy 400';
+    src: url(./font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 500';
+    src: url(./font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 600';
+    src: url(./font/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy 700';
+    src: url(./font/Gilroy-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.wrap{
+    max-height: 474px;
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 104px;
+    top: 280px;
+}
+.text {
+    position: absolute;
+    width: fit-content;
+    height: 59px;
+    left: 657px;
+    top: 76px;
+    font-family: 'Gilroy 600';
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.btn1 {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    width: 254px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    left: 606px;
+    top: 160px;
+}
+
+.btn p {
+    width: 162px;
+    height: 22px;
+
+    font-family: 'Gilroy 600';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.bt2 {
+    left: 868px;
+    top: 160px;
+}
+
+.bt2 p {
+    width: 113px;
+    height: 22px;
+
+    font-family: 'Gilroy 600';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.img-block {
+    position: relative;
+    width: 364px;
+    height: 199px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.img {
+    background-image: url(./img/сумка.png);
+    width: 115px;
+    position: absolute;
+    height: 161px;
+    top: 10px;
+    left: 124px;
+}
+
+.block {
+    position: relative;
+    width: 364px;
+    height: 275px;
+    background: #000000;
+}
+
+.block-text {
+    position: absolute;
+    width: 247px;
+    height: 29px;
+    left: 30px;
+    top: 30px;
+    font-family: 'Gilroy 600';
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.block-text2 {
+    position: absolute;
+    width: 297px;
+    height: 51px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Gilroy 600';
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.dollor {
+    background-image: url(./img/доллар.png);
+    position: absolute;
+    width: 8px;
+    height: 14.67px;
+    left: 34px;
+    top: 144px;
+    background-size: contain;
+}
+
+.block-text3 {
+    position: absolute;
+    width: 37px;
+    height: 29px;
+    left: 52px;
+    top: 137px;
+    font-family: 'Gilroy 500';
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.star {
+    background-image: url(./img/звезда.png);
+    background-size: contain;
+    position: absolute;
+    height: 11.61px;
+    width: 12.21px;
+    left: 112px;
+    top: 146px;
+}
+.block-text4{
+    position: absolute;
+width: 30px;
+height: 29px;
+left: 132px;
+top: 137px;
+font-family: 'Gilroy 500';
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.box{
+    background-image: url(./img/коробка.png);
+    position: absolute;
+width: 12px;
+height: 13.39px;
+left: 182px;
+top: 145px;
+background-size: contain;
+}
+.block-text5{
+    position: absolute;
+width: 37px;
+height: 29px;
+left: 203px;
+top: 137px;
+font-family: 'Gilroy 500';
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.button{
+    position: relative;
+width: 305px;
+height: 55px;
+left: 30px;
+top: 196px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 500ms;
+}
+.button-text{
+font-family: 'Gilroy 600';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+transition: 500ms;
+}
+.active{
+    background: #1F86FF;
+}
+.textActive{
+    color: white;
+}
